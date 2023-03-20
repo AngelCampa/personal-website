@@ -33,19 +33,19 @@ const PersonalProjects = () => {
 
   return (
     <div className="p-10">
-      <h1 className="text-4xl font-bold mb-5 text-gray-800">Personal Projects</h1>
+      <h1 className="text-4xl font-bold mb-5">Personal Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-gray-100 p-5 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-3 text-gray-700">{project.title}</h2>
-            <p className="text-gray-600">{project.description}</p>
+          <div key={index} className="bg-gradient-to-br from-purple-500 to-pink-500 bg-opacity-30 p-5 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
+            <p>{project.description}</p>
             {project.github ? (
-              <a href={project.github} target="_blank" rel="noreferrer" className="inline-flex items-center mt-4 text-blue-600 hover:text-blue-800">
+              <a href={project.github} target="_blank" rel="noreferrer" className="inline-flex items-center mt-4 text-white hover:text-pink-400">
                 <FaGithub className="mr-2" />
                 View on GitHub
               </a>
             ) : (
-              <a href={project.website} target="_blank" rel="noreferrer" className="inline-flex items-center mt-4 text-blue-600 hover:text-blue-800">
+              <a href={project.website} target="_blank" rel="noreferrer" className="inline-flex items-center mt-4 text-white hover:text-pink-400">
                 <FiExternalLink className="mr-2" />
                 Visit Website
               </a>
