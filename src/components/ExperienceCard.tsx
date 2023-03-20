@@ -14,7 +14,7 @@ const ExperienceCard: React.FC = () => {
           return (
             <div
               key={experience.id}
-              className="bg-gradient-to-r from-indigo-600 to-pink-600 rounded-lg shadow-lg overflow-hidden text-gray-800 px-6 py-4"
+              className="bg-gradient-to-r from-purple-800 to-pink-400 rounded-lg shadow-lg overflow-hidden text-gray-800 px-6 py-4"
             >
               <div className="flex items-center mb-2">
                 <FaBriefcase className="mr-2" />

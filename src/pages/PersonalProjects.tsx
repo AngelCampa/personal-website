@@ -36,7 +36,7 @@ const PersonalProjects = () => {
       <h1 className="text-4xl font-bold mb-5">Personal Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-gradient-to-br from-purple-500 to-pink-500 bg-opacity-30 p-5 rounded-lg shadow-md">
+          <div key={index} className="bg-gradient-to-br from-purple-700 to-pink-400 bg-opacity-30 p-5 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
             <p>{project.description}</p>
             {project.github ? (
