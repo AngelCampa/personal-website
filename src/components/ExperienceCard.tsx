@@ -14,29 +14,29 @@ const ExperienceCard: React.FC = () => {
           return (
             <div
               key={experience.id}
-              className="bg-gradient-to-r from-indigo-600 to-red-600 rounded-lg shadow-lg overflow-hidden text-gray-800 px-6 py-4"
+              className="bg-gradient-to-r from-indigo-600 to-pink-600 rounded-lg shadow-lg overflow-hidden text-gray-800 px-6 py-4"
             >
               <div className="flex items-center mb-2">
                 <FaBriefcase className="mr-2" />
-                <h2 className="text-xl font-bold">{experience.jobTitle}</h2>
+                <h2 className="text-white text-xl font-bold">{experience.jobTitle}</h2>
               </div>
               <div className="mb-4">
-                <h3 className="text-lg font-bold">{experience.company}</h3>
-                <p className="text-sm">{`${experience.startDate} - ${experience.endDate}`}</p>
-                <p className="text-sm">{experience.location}</p>
+                <h3 className="text-white text-lg font-bold">{experience.company}</h3>
+                <p className="text-white text-sm">{`${experience.startDate} - ${experience.endDate}`}</p>
+                <p className="text-white text-sm">{experience.location}</p>
               </div>
               <ul className="list-disc pl-6">
                 {experience.activities.map((activity, index) => (
-                  <li key={index} className="mb-2">
+                  <li key={index} className="text-white mb-2">
                     {activity}
                   </li>
                 ))}
               </ul>
               <div className="mt-4">
-                <p className="text-gray-800 font-bold">Tools used:</p>
+                <p className="text-white font-bold">Tools used:</p>
                 <ul className="list-disc pl-6">
                   {experience.tools.map((tool, index) => (
-                    <li key={index} className="mb-2">
+                    <li key={index} className="text-white mb-2">
                       {tool}
                     </li>
                   ))}
