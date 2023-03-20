@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-pink-300 transition duration-200"
             >
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a
               href="https://www.linkedin.com/in/angel-campa-3383a0144/"
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-pink-300 transition duration-200"
             >
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
         </div>
