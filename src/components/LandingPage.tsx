@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
           </h2>
           <div className="text-lg text-white mb-8 space-x-8">
             <a
-              href="resume.pdf"
+              href="../public/angel-campa-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-purple-600 px-6 py-3 rounded-lg shadow-md hover:bg-purple-600 hover:text-white transition duration-200 mb-8"

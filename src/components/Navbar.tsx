@@ -11,33 +11,20 @@ const Navbar: React.FC = () => {
           </Link>
           <ul className="flex space-x-6">
             <li>
-              <a
-                href="#about"
-                className="hover:text-pink-300 transition duration-200"
+              <Link
+                to="/projects"
+                className="bg-white text-purple-600 px-6 py-3 rounded-lg shadow-md hover:bg-purple-600 hover:text-white transition duration-200 mb-8"
               >
-                About
-              </a>
-            </li>
-            <li>
-              <Link to="/projects" className="hover:text-pink-300">
                 Personal Projects
               </Link>
             </li>
             <li>
-              <a
-                href="#experience"
-                className="hover:text-pink-300 transition duration-200"
+              <Link
+                to="/experience"
+                className="bg-white text-purple-600 px-6 py-3 rounded-lg shadow-md hover:bg-purple-600 hover:text-white transition duration-200 mb-8"
               >
                 Experience
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className="hover:text-pink-300 transition duration-200"
-              >
-                Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

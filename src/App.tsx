@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Landing from "./components/LandingPage";
 import PersonalProjects from "./pages/PersonalProjects";
+import Experience from "./pages/Experience";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/projects" element={<PersonalProjects />} />
+            <Route path="/experience" element={<Experience />} />
           </Routes>
         </main>
         <Footer />
