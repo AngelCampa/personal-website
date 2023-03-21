@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Landing from "./components/LandingPage";
 import PersonalProjects from "./pages/PersonalProjects";
 import Experience from "./pages/Experience";
+import Education from "./pages/Education";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<Landing />} />
             <Route path="/projects" element={<PersonalProjects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/education" element={<Education />} />
           </Routes>
         </main>
         <Footer />
