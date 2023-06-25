@@ -7,9 +7,13 @@ export const experiences = [
       endDate: 'Present',
       location: 'Remote',
       activities: [
-        'Lead the testing efforts regarding a high priority cross-team ETL project, creating more than 5,000 automated API regression tests from scratch for the new microservices using Postman, Azure and CosmosDB, integrating with Azure DevOps CI/CD pipelines using YAML.',
-        'Refactor and maintain a Cross-Platform Appium based test automation framework for Vanco’s mobile app.',
-      ],
+        'As a Senior SDET at Vanco, I enhanced the quality of our cutting-edge Kiosk Mobile app for iPad. Throughout the project lifecycle, I conducted comprehensive testing, developing robust automated tests using WebdriverIO, Appium, and Mocha framework for efficient and reliable testing.',
+        'I led QA efforts across multiple teams, fostering collaboration and coordinating test automation initiatives. I drove continuous improvements, expanded test coverage, and ensured seamless integration with CI/CD Azure DevOps pipelines.',
+        'Within an agile environment, I actively engaged in Scrum-based agile project planning, designing testable user stories, epics, and tasks. I executed continuous testing strategies, managing front-end and back-end testing using Jira for comprehensive coverage and seamless collaboration.',
+        'As Release Manager for a cross-platform app, I oversaw releases to iOS App Store and Google Play Store. I monitored automated regression tests, implemented patches, and optimized DevOps processes, including Azure resource management, to streamline the release cycle.',
+        'I led cross-team project testing efforts, developing and implementing over 5,000 automated API regression tests using Postman, Azure, and CosmosDB. These test suites were integrated with Azure DevOps CI/CD pipelines, ensuring efficient and reliable software delivery.',
+        "I pioneered the creation of a cross-platform Appium-based test automation framework for Vanco's React Native app. This JavaScript framework with WebDriverIO and Cucumber ensured seamless test execution, compatibility, and quality assurance across iOS and Android platforms, enabling faster feedback and efficient development.",
+],
       tools: [
         'Postman',
         'Azure',
@@ -23,6 +27,9 @@ export const experiences = [
         'Chrome DevTools',
         'Swagger',
         'Microsoft SQL Server Management',
+        'WebDriverIO',
+        'Cucumber',
+        'Mocha'
       ],
     },
     {
