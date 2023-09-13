@@ -21,7 +21,7 @@ const LandingPage: React.FC = () => {
         <div className="text-white text-center px-4">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">Angel Campa</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold mb-8">
-            Sr. SDET | ISTQB® Certified Agile Tester
+            Sr. SDET | 3x ISTQB® Agile Technical Tester
           </h2>
           <div className="text-lg text-white mb-8 space-x-4 sm:space-x-8">
             <a
@@ -41,19 +41,7 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="mt-16">
             <h3 className="text-white text-2xl sm:text-3xl font-semibold mb-8">
-              About Me
-            </h3>
-            <p className="text-white text-lg">
-              Experienced Software Development Engineer in Test with a strong
-              background in QA, Frontend and Backend Test Automation, Scrum,
-              CI/CD Integration, and various testing tools. Passionate about
-              delivering high-quality software solutions and ensuring optimal
-              user experiences.
-            </p>
-          </div>
-          <div className="mt-16">
-            <h3 className="text-white text-2xl sm:text-3xl font-semibold mb-8">
-              Skills
+              Coding Experience
             </h3>
             <ul className="grid grid-cols-2 sm:grid-cols-6 gap-4 text-white">
               <li>
@@ -104,23 +92,22 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="mt-16">
             <h3 className="text-white text-2xl sm:text-3xl font-semibold mb-8">
-              Recent Work
+              Major Projects
             </h3>
             <ul className="text-white space-y-4">
               <li>
-                <strong>High priority ETL project:</strong> Lead the testing
+                <strong>Vanco Mobile App Test Automation:</strong> Pioneered
+                cross-platform Appium-based test automation for Vanco's React
+                Native app, ensuring seamless execution across iOS and Android.
+              </li>
+              <li>
+                <strong>High-Priority ETL Project:</strong> Led the testing
                 efforts by creating more than 5,000 automated API regression
                 tests using Postman, Azure, and CosmosDB.
               </li>
               <li>
-                <strong>Appium-based test automation framework:</strong>{" "}
-                Refactor and maintain a cross-platform framework for Vanco's
-                mobile app.
-              </li>
-              <li>
-                <strong>Data migration testing:</strong> Lead, coordinate, and
-                execute cross-team testing efforts for data migration, ensuring
-                data integrity across hundreds of thousands of records.
+                <strong>Appium-based Test Automation Framework:</strong> Refactored
+                and maintained a cross-platform framework for Vanco's mobile app.
               </li>
             </ul>
           </div>
