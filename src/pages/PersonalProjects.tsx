@@ -25,10 +25,18 @@ const PersonalProjects = () => {
       github: "https://github.com/AngelCampa/Genetic-Algorithm-Python",
     },
     {
-      title: "Brandamo",
+      title: "Sudoku Game (React Native)",
       description:
-        "Brandamo is a one-stop content creation platform that allows users to generate tailored content for major social media platforms using the power of AI. It offers a user-friendly interface and customizable content creation options, with analytics to gain insights on content performance. Brandamo helps users create engaging content, save time and effort, and track their progress.",
-      website: "https://brandamo.app/",
+        "A free and open-source Sudoku app created in React Native with the help of ChatGPT. The app allows users to play Sudoku puzzles with different difficulty levels.",
+      github:
+        "https://github.com/AngelCampa/angel-sudoku-game",
+    },
+    {
+      title: "Pizzeria App (Laravel)",
+      description:
+        "A sample web application that allows users to manage a pizza menu. It enables users to create, view, edit, and delete pizzas through a web interface. The application is built using the Laravel framework and follows the MVC (Model-View-Controller) pattern for code organization.",
+      github:
+        "https://github.com/AngelCampa/pizzeria",
     },
     {
       title: "Personal Website",
@@ -49,27 +57,15 @@ const PersonalProjects = () => {
           >
             <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
             <p>{project.description}</p>
-            {project.github ? (
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center mt-4 text-white hover:text-pink-400"
-              >
-                <FaGithub className="mr-2" />
-                View on GitHub
-              </a>
-            ) : (
-              <a
-                href={project.website}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center mt-4 text-white hover:text-pink-400"
-              >
-                <FiExternalLink className="mr-2" />
-                Visit Website
-              </a>
-            )}
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center mt-4 text-white hover:text-pink-400"
+            >
+              <FaGithub className="mr-2" />
+              View on GitHub
+            </a>
           </div>
         ))}
       </div>
