@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b gh-pages -d dist"
+    "deploy": "gh-pages -b gh-pages -d dist --base https://angelcampa.com"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
